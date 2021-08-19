@@ -7,6 +7,3 @@ data:
 
 map:
   - any: ['data/world/*']
-
-docker:
-  - any: ['docker/**/*']

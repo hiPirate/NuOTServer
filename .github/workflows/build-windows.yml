@@ -64,14 +64,9 @@ jobs:
             !${{ github.workspace }}/vcpkg/
             !${{ github.workspace }}/.git/
             !${{ github.workspace }}/.github/
-            !${{ github.workspace }}/.appveyor.yml
             !${{ github.workspace }}/.editorconfig
             !${{ github.workspace }}/.gitignore
-            !${{ github.workspace }}/.reviewdog.yml
-            !${{ github.workspace }}/.travis.yml
             !${{ github.workspace }}/cmake/
-            !${{ github.workspace }}/sonar-project.properties
-            !${{ github.workspace }}/Jenkinsfile
 
       - name: Create and Upload Server Only
         if: ${{ matrix.buildtype == 'Release' && github.ref == 'refs/heads/nuotserver'}}
