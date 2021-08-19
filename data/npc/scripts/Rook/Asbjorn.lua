@@ -36,7 +36,7 @@ keywordHandler:addAliasKeyword({'weapons'})
 keywordHandler:addAliasKeyword({'shields'})
 
 -- Self
-keywordHandler:addKeyword({"citizens"}, StdModule.say, {npcHandler = npcHandler, text = "I know {Albin} and {Ruby}. Who are you wanting information about?"})
+keywordHandler:addKeyword({"citizens"}, StdModule.say, {npcHandler = npcHandler, text = "I know {Albin}, {John}, {Ruby} and {Wrynn}. Who are you wanting information about?"})
 keywordHandler:addAliasKeyword({'inhabitants'})
 keywordHandler:addKeyword({"Asbjorn"}, StdModule.say, {npcHandler = npcHandler, text = "That's me. Are you looking to {trade} for some new gear?"})
 keywordHandler:addAliasKeyword({'asbjorn'})
@@ -44,8 +44,12 @@ keywordHandler:addAliasKeyword({'asbjorn'})
 -- Other NPCs
 keywordHandler:addKeyword({"Albin"}, StdModule.say, {npcHandler = npcHandler, text = "Albin is the temple monk. He can heal you if you're critically injured or poisoned."})
 keywordHandler:addAliasKeyword({'albin'})
+keywordHandler:addKeyword({"John"}, StdModule.say, {npcHandler = npcHandler, text = "John used to help {Albin} at the temple, but he had some issues with alcohol, which is forbidden. Now he roams the city, homeless."})
+keywordHandler:addAliasKeyword({'john'})
 keywordHandler:addKeyword({"Ruby"}, StdModule.say, {npcHandler = npcHandler, text = "In Ruby's General Store you'll find necessary equipment and tools for your travels."})
 keywordHandler:addAliasKeyword({'ruby'})
+keywordHandler:addKeyword({"Wrynn"}, StdModule.say, {npcHandler = npcHandler, text = "Wrynn runs the alchemist lab in the Mage's Sector of the Temple. She sells potions and antidotes."})
+keywordHandler:addAliasKeyword({'wrynn'})
 
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Hmpfh. Bye then.")
 npcHandler:setMessage(MESSAGE_FAREWELL, "So long, |PLAYERNAME|!")

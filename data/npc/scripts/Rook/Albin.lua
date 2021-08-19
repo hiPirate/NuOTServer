@@ -65,16 +65,20 @@ keywordHandler:addKeyword({'heal'}, StdModule.say, {npcHandler = npcHandler, tex
 keywordHandler:addKeyword({'heal'}, StdModule.say, {npcHandler = npcHandler, text = "You don't look too bad, |PLAYERNAME|. My powers can only heal seriously injured citizens. Try eating some food."})
 
 -- Self
-keywordHandler:addKeyword({"citizens"}, StdModule.say, {npcHandler = npcHandler, text = "I know {Asbjorn} and {Ruby}. Who are you wanting information about?"})
+keywordHandler:addKeyword({"citizens"}, StdModule.say, {npcHandler = npcHandler, text = "I know {Asbjorn}, {John}, {Ruby} and {Wrynn}. Who are you wanting information about?"})
 keywordHandler:addAliasKeyword({'inhabitants'})
 keywordHandler:addKeyword({"Albin"}, StdModule.say, {npcHandler = npcHandler, text = "That's me. Can I {help} you?"})
 keywordHandler:addAliasKeyword({'albin'})
 
 -- Other NPCs
-keywordHandler:addKeyword({"Ruby"}, StdModule.say, {npcHandler = npcHandler, text = "In Ruby's General Store you'll find necessary equipment and tools for your travels."})
-keywordHandler:addAliasKeyword({'ruby'})
 keywordHandler:addKeyword({"Asbjorn"}, StdModule.say, {npcHandler = npcHandler, text = "Asbjorn runs the blacksmith here in town as well as operates the armors, weapons and shields shop. Stop by his store if you're in need of new gear."})
 keywordHandler:addAliasKeyword({'asbjorn'})
+keywordHandler:addKeyword({"John"}, StdModule.say, {npcHandler = npcHandler, text = "John used to help me at the temple, but he had some issues with alcohol, which is forbidden. Now he roams the city, homeless."})
+keywordHandler:addAliasKeyword({'john'})
+keywordHandler:addKeyword({"Ruby"}, StdModule.say, {npcHandler = npcHandler, text = "In Ruby's General Store you'll find necessary equipment and tools for your travels."})
+keywordHandler:addAliasKeyword({'ruby'})
+keywordHandler:addKeyword({"Wrynn"}, StdModule.say, {npcHandler = npcHandler, text = "Wrynn runs the alchemist lab in the Mage's Sector of the Temple. She sells potions and antidotes."})
+keywordHandler:addAliasKeyword({'wrynn'})
 
 npcHandler:setCallback(CALLBACK_GREET, greetCallback)
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Bless you, rude person.")
