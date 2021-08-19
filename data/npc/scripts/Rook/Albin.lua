@@ -64,6 +64,17 @@ keywordHandler:addKeyword({'heal'}, StdModule.say, {npcHandler = npcHandler, tex
 )
 keywordHandler:addKeyword({'heal'}, StdModule.say, {npcHandler = npcHandler, text = "You don't look too bad, |PLAYERNAME|. My powers can only heal seriously injured citizens. Try eating some food."})
 
+-- Pick quest
+local pickKeyword = keywordHandler:addKeyword({'temple key'}, StdModule.say, {npcHandler = npcHandler, text = "You are looking for a new temple key, {yes}?"})
+	pickKeyword:addChildKeyword({'yes'}, StdModule.say, {npcHandler = npcHandler, text = "Here you are! Try not to lose it again.", reset = true},
+		function(player) return player:getItemCount(36423) == 0 end,
+		function(player)
+			player:addItem(36423, 1)
+		end
+	)
+	pickKeyword:addChildKeyword({'yes'}, StdModule.say, {npcHandler = npcHandler, text = "You already have a {temple key}. Why do you need two?", reset = true})
+	pickKeyword:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, text = "Very well, a change of mind.", reset = true})
+	pickKeyword:addChildKeyword({''}, StdModule.say, {npcHandler = npcHandler, text = "I guess you don't need a new {temple key} then.", reset = true})
 -- Self
 keywordHandler:addKeyword({"citizens"}, StdModule.say, {npcHandler = npcHandler, text = "I know {Asbjorn}, {John}, {Ruby} and {Wrynn}. Who are you wanting information about?"})
 keywordHandler:addAliasKeyword({'inhabitants'})

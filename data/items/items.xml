@@ -18316,11 +18316,9 @@
 		<attribute key="weaponType" value="shield" />
 		<attribute key="loottype" value="shield" />
 	</item>
-	<item id="9815" article="a" name="rusted shield">
-		<attribute key="loottype" value="valuable" />
-		<attribute key="description" value="If you can remove the rust layer and dirt from the shields you will be able to see what it is." />
-		<attribute key="weight" value="2800" />
-		<attribute key="defense" value="1" />
+	<item id="9815" article="an" name="old rusty shield">
+		<attribute key="weight" value="2600" />
+		<attribute key="defense" value="7" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="loottype" value="shield" />
 	</item>
@@ -24237,7 +24235,7 @@
 		<attribute key="description" value="Use this knife on a dead war wolf to retrieve some leather. Don't lose it and don't leave the cave." />
 		<attribute key="weight" value="800" />
 	</item>
-	<item id="13829" article="a" name="wooden sword">
+	<item id="13829" article="a" name="splinted sword">
 		<attribute key="weight" value="2000" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="7" />
@@ -34122,9 +34120,9 @@
 	<item id="23781" article="a" name="spellbook">
 		<attribute key="description" value="This shows your spells and can also shield against attacks when worn." />
 	</item>
-	<item id="23782" article="a" name="shopping bag">
-		<attribute key="weight" value="1800" />
-		<attribute key="containerSize" value="20" />
+	<item id="23782" article="a" name="paper sack">
+		<attribute key="weight" value="1300" />
+		<attribute key="containerSize" value="15" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="23783" article="a" name="skeleton" />
@@ -47860,9 +47858,8 @@
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="36423" article="a" name="ancient liche bone">
-		<attribute key="loottype" value="creatureproduct" />
-		<attribute key="weight" value="80" />
+	<item id="36423" article="a" name="temple key">
+		<attribute key="weight" value="0" />
 	</item>
 	<item id="36424" article="a" name="rotten heart">
 		<attribute key="loottype" value="creatureproduct" />
@@ -48693,31 +48690,27 @@
 		<attribute key="weight" value="100" />
 		<attribute key="showcount" value="1" />
 	</item>
-	<item id="36932" article="a" name="lederhosen">
-		<attribute key="description" value="Made from dried and tanned orc skin, these tranditional Orcsoberfest leather trousers are sturdy and fit a wide range of orgres." />
-		<attribute key="weight" value="800" />
+	<item id="36932" article="a" name="common legs">
+		<attribute key="weight" value="2000" />
 		<attribute key="armor" value="0" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="loottype" value="legs" />
 	</item>
-	<item id="36933" article="a" name="traditional leather shoes">
-		<attribute key="description" value="Soled with sturdy orc hides, these traditional Orcsoberfest leather shoes are robust and useful." />
+	<item id="36933" article="a" name="common shoes">
 		<attribute key="weight" value="500" />
 		<attribute key="armor" value="0" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="loottype" value="boots" />
 	</item>
-	<item id="36934" article="a" name="traditional shirt">
-		<attribute key="description" value="A traditional white Orcsoberfest shirt. Not worm by many ogres during the actual festivities anymore, however." />
-		<attribute key="weight" value="400" />
-		<attribute key="armor" value="0" />
+	<item id="36934" article="a" name="common shirt">
+		<attribute key="weight" value="1800" />
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="body" />
 		<attribute key="loottype" value="armor" />
 	</item>
-	<item id="36935" article="a" name="traditional gamsbart hat">
-		<attribute key="description" value="This traditional Orcsoberfest gamsbart shows a bit of use but is still in good shape and will clothe any sophisticated ogre just fine." />
-		<attribute key="weight" value="250" />
-		<attribute key="armor" value="0" />
+	<item id="36935" article="a" name="common hat">
+		<attribute key="weight" value="1800" />
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
 		<attribute key="loottype" value="helmet" />
 	</item>
