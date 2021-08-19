@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Asbjorn" walkinterval="1000" floorchange="0" script="Rook/Asbjorn.lua">
+	<health now="100" max="100"/>
+	<look type="134" head="21" body="126" legs="95" feet="114" addons="1"/>
+	<parameters>
+	  <parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+		  spear, 2389, 10;
+			rapier, 2396, 15;
+			dagger, 2402, 5;
+		  sabre, 2385, 25;
+			sickle, 2405, 8;
+			hand axe, 2380, 8;
+			axe, 2386, 20;
+			short sword, 2406, 30;
+			leather armor, 2467, 25;
+			leather legs, 2649, 10;
+			leather helmet, 2461, 12;
+			studded helmet, 2482, 63;
+			chain helmet, 2457, 52;
+			wooden shield, 2512, 15;
+			studded shield, 2526, 50;"/>
+		<parameter key="shop_sellable" value="
+			spear, 2389, 3;
+			rapier, 2396, 5;
+			dagger, 2402, 2;
+		  sabre, 2385, 12;
+			sickle, 2405, 4;
+			hand axe, 2380, 4;
+			axe, 2386, 7;
+			short sword, 2406, 10;
+			leather armor, 2467, 5;
+			leather legs, 2649, 3;
+			leather helmet, 2461, 3;
+			studded helmet, 2482, 20;
+			chain helmet, 2457, 12;
+			wooden shield, 2512, 3;
+			studded shield, 2526, 16;"/>
+  </parameters>
+</npc>
