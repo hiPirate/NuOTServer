@@ -47859,6 +47859,7 @@
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="36423" article="a" name="temple key">
+		<attribute key="description" value="You may use this key to teleport to your home temple once every hour while not in combat." />
 		<attribute key="weight" value="0" />
 	</item>
 	<item id="36424" article="a" name="rotten heart">
