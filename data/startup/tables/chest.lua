@@ -36,7 +36,7 @@ ChestUnique = {
   -- Rookgaard: Dagger Chest
   [6001] = {
 		itemId = 26408,
-		itemPos = {x = 246, y = 34, z = 8},
+		itemPos = {x = 1029, y = 1272, z = 8},
 		reward = {{2379, 1}},
 		storage = 6101
   },
@@ -44,7 +44,7 @@ ChestUnique = {
   -- Rookgaard: Leather Legs Chest
   [6002] = {
     itemId = 26408,
-    itemPos = {x = 258, y = 56, z = 8},
+    itemPos = {x = 1041, y = 1294, z = 8},
     reward = {{2649, 1}},
     storage = 6102
   },
@@ -52,7 +52,7 @@ ChestUnique = {
   -- Rookgaard: Wooden Shield Chest
   [6003] = {
     itemId = 26408,
-    itemPos = {x = 237, y = 58, z = 9},
+    itemPos = {x = 1020, y = 1296, z = 9},
     reward = {{2512, 1}},
     storage = 6103
   },
